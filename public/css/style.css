@@ -72,3 +72,22 @@ width:110px;
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+@media(max-width:600px){
+	.skillbar-title {
+		position:absolute;
+		top:0;
+		left:0;
+		width:0px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+	}
+}
